@@ -1,0 +1,422 @@
+/* INTRO */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.main-cam {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/background-kim.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #2b1912;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 40px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+    margin-left: 20px;
+}
+
+.main-cam ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main-cam ul li a:visited{
+    background-color: rgba(80, 58, 32, 0.6);
+    color: rgb(255, 255, 255);
+}
+.main-cam ul li a:active{
+    background-color: rgb(58, 51, 41);
+    color: white;
+}
+
+/* PROF-IMAGE */
+
+.image-cam img {
+    color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    width: 400px;
+    height: 400px;
+    border-radius: 90px;
+    object-fit: cover;
+    filter: grayscale(50%) sepia(10%) drop-shadow(4px 4px 5px rgb(0, 0, 0));
+    border: 1px solid transparent;
+    position:absolute;
+    top: 59%;
+    left: 25%;
+    transform: translate(-65%,-55%);
+}
+
+/* NAME */
+
+.name-cam h2{
+    color: rgb(212, 212, 212);
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-shadow: 2px 2px 4px #000000;
+    position:absolute;
+    top: 53%;
+    left: 60%;
+    transform: translate(-50%,-55%);
+}
+
+.name-cam h3{
+    color: rgba(204, 204, 204, 0.753);
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-shadow: 2px 2px 4px #000000;
+    position:absolute;
+    top: 65%;
+    left: 73%;
+    transform: translate(-50%,-55%);
+}
+
+/* NEXT PAGE---------------PROFILE */
+
+.profile {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #2b1912;
+}
+
+.top {
+    background-color: #2b191296;
+    width: 170vh;
+    height: 100vh;
+    margin: auto;
+    border-left: 5px solid rgba(81, 47, 32, 0.37);
+    border-right: 5px solid rgba(81, 47, 32, 0.37);
+}
+
+.main-cam-2, .main-cam-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/background-kim.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} 
+
+.profile-image img {
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    display: block;
+    float: left;
+    margin: 80px 60px 53px 45px;
+    filter: grayscale(50%) sepia(10%);
+    border: 1px solid transparent;
+    border-radius: 100px;
+
+}
+
+.profile-text {
+    width: 800px;
+    height: 900px;
+    margin: 42px auto;
+}
+
+.profile-text h2 {
+    color: white;
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+h5 {
+    color: rgba(235, 235, 235, 0.938);
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    text-align:justify;
+    font-family:cursive;
+}
+
+.profile-text h3 {
+    color: white;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    text-align:justify;
+    font-family: Cambria;
+    text-shadow: 2px 2px 4px #000000;
+    color: bisque;
+}
+
+span {
+    color:antiquewhite;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* NEXT PAGE---------------GALLERY */
+
+.header-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #2d1c0e;
+    color: white;
+}
+
+.header-title h2 {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+    color: #E0DDDD;
+}
+
+  body {
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    background: #E0DDDD;
+  }
+  
+  #gallery {
+    background-image: linear-gradient(to right, rgba(33, 21, 7, 0.758), #614934 , #482c20 , rgba(33, 21, 7, 0.758));
+  }
+
+  #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+  }
+  
+  #gallery img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+    filter: grayscale(50%) sepia(20%);
+  }
+  
+  @media (max-width: 800px) {
+    #gallery img {
+      width: 50%;
+    }
+  }
+
+  /* NEXT PAGE---------------BIAS */
+  .bias {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #2b1912;
+  }
+
+  .main-cam-4 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/background-kim.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+
+.logo {
+    width: auto;
+    height: 100px;
+}
+
+ /* NEXT PAGE---------------MBTI */
+
+ .main-cam-4 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/background-kim.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.top {
+    background-color: #2b1912ce;
+    width: 170vh;
+    height: 100vh;
+    margin: auto;
+    border-left: 5px solid rgba(81, 47, 32, 0.37);
+    border-right: 5px solid rgba(81, 47, 32, 0.37);
+}
+
+.main-cam-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/background-kim.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} 
+
+.mbti-image img {
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    display: block;
+    float: left;
+    margin: 80px 40px 53px 45px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+
+}
+
+.mbti-text {
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.mbti-text h2 {
+    color: white;
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.mbti-text h3 {
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Cambria;
+    text-shadow: 2px 2px 4px #000000;
+    color: bisque;
+}
+
+.mbti-text h4 {
+    color:#b3aeaeeb;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+.mbti-text p {
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+h5 {
+    color: rgba(235, 235, 235, 0.938);
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-align:justify;
+    font-family: cursive;
+}
+
+.mbti-text h6 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+span {
+    color:antiquewhite;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* NEXT PAGE---------------FUTURE COURSE */
+
+
+/* NEXT PAGE---------------ENDING */
+
+.end-cam nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 8%;
+}
+
+.end-cam nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.end-cam nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 30px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.end-cam ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.end-cam ul li a:visited{
+    background-color: rgba(80, 58, 32, 0.6);
+    color: rgb(255, 255, 255);
+}
+.end-cam ul li a:active{
+    background-color: rgb(58, 51, 41);
+    color: white;
+}
+
+/* SCROLLBAR */
+
+body {
+    height: 700vh;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background:#3e2e21;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2b1912;
+}

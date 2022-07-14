@@ -1,0 +1,140 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.header-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #2d1c0e;
+    color: white;
+}
+
+.header-titl {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #2d1c0e;
+    color: white;
+}
+
+.header-title h2 {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+    color: #E0DDDD;
+}
+
+.header-titl h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px;
+    color: #E0DDDD;
+}
+
+h3 {
+    font-family: cursive;
+    color: rgb(223, 223, 223);
+}
+  body {
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    background: #E0DDDD;
+  }
+  
+  #gallery {
+    background-image: linear-gradient(to right, rgba(33, 21, 7, 0.758), #614934 , #482c20 , rgba(33, 21, 7, 0.758));
+  }
+
+  #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+  }
+  
+  #gallery img {
+    width: 30%;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+    filter: grayscale(50%) sepia(20%);
+  }
+  
+  @media (max-width: 800px) {
+    #gallery img {
+      width: 50%;
+    }
+  }
+
+  /* NEXT PAGE---------------ENDING */
+
+.end-cam {
+    color:#000000
+}
+.end-cam nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #2b1912;
+}
+
+.end-cam nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.end-cam nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 30px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.end-cam ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.end-cam ul li a:visited{
+    background-color: rgba(80, 58, 32, 0.6);
+    color: rgb(255, 255, 255);
+}
+.end-cam ul li a:active{
+    background-color: rgb(58, 51, 41);
+    color: white;
+}
+
+  /* SCROLLBAR */
+
+body {
+    height: 200vh;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background:#3e2e21;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2b1912;
+}
